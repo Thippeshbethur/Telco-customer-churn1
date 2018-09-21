@@ -3,7 +3,7 @@ package Project.Src
 import Project.Methods.Telco
 import Project.Methods.Adding_data._
 
-object Final {
+object Service_based_churn {
   def main(args: Array[String]): Unit = {
     import sparkSession.implicits._
     var service = rdd.map(line => line.split(",")).map(row =>
